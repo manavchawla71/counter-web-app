@@ -1,2 +1,3 @@
 # counter-web-app
-Created with CodeSandbox
+<p>Web app through which you can count words in a dynamic string<p>
+<p>feature of theme switcher exists</p>
