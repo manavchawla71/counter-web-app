@@ -1,0 +1,53 @@
+/* styles.css */
+.App {
+  text-align: center;
+  margin-top: 20px;
+  transition: background-color 0.3s;
+}
+
+.app-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 7pc;
+  height: 0pc;
+  color: green;
+  border: 2px solid red;
+  margin: 0 auto;
+  padding: 2pc 0;
+  background-color: white; /* Light mode background */
+}
+
+.App.dark {
+  background-color: #333; /* Dark mode background */
+  color: white; /* Dark mode text color */
+}
+
+.area {
+  margin-top: 3pc;
+  width: 10%;
+  padding: 10px;
+  font-size: 16px;
+  /* margin-left:-1pc; */
+}
+
+p {
+  font-size: 18px;
+  margin: 10px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+.toggle {
+  margin-left: 0pc;
+}
